@@ -10,6 +10,9 @@
 		757E64B799C1EF682CFE3DAA /* Pods_t0039494.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B783FFC4461C6BE9F0BCDFC6 /* Pods_t0039494.framework */; };
 		DE2CB6F11E4F722A0082C6BE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE2CB6F01E4F722A0082C6BE /* GoogleService-Info.plist */; };
 		DE2CB6F31E4F7E460082C6BE /* FancyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6F21E4F7E460082C6BE /* FancyTextField.swift */; };
+		DE2CB6F61E50BFEC0082C6BE /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6F51E50BFEC0082C6BE /* ConstraintsViewController.swift */; };
+		DE2CB6F81E5214DB0082C6BE /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6F71E5214DB0082C6BE /* FeedVC.swift */; };
+		DE2CB6FC1E549C5D0082C6BE /* cumstomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6FB1E549C5D0082C6BE /* cumstomView.swift */; };
 		DEFA9BB11E4CA9B1004088B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFA9BB01E4CA9B1004088B0 /* AppDelegate.swift */; };
 		DEFA9BB31E4CA9B1004088B0 /* ViewControllerSignin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFA9BB21E4CA9B1004088B0 /* ViewControllerSignin.swift */; };
 		DEFA9BB61E4CA9B1004088B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFA9BB41E4CA9B1004088B0 /* Main.storyboard */; };
@@ -24,6 +27,10 @@
 		CF9F32E0998EE8113EC54584 /* Pods-t0039494.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-t0039494.release.xcconfig"; path = "Pods/Target Support Files/Pods-t0039494/Pods-t0039494.release.xcconfig"; sourceTree = "<group>"; };
 		DE2CB6F01E4F722A0082C6BE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE2CB6F21E4F7E460082C6BE /* FancyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTextField.swift; sourceTree = "<group>"; };
+		DE2CB6F51E50BFEC0082C6BE /* ConstraintsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintsViewController.swift; sourceTree = "<group>"; };
+		DE2CB6F71E5214DB0082C6BE /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		DE2CB6F91E5217C70082C6BE /* t0039494.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = t0039494.entitlements; sourceTree = "<group>"; };
+		DE2CB6FB1E549C5D0082C6BE /* cumstomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cumstomView.swift; sourceTree = "<group>"; };
 		DEFA9BAD1E4CA9B1004088B0 /* t0039494.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = t0039494.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFA9BB01E4CA9B1004088B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEFA9BB21E4CA9B1004088B0 /* ViewControllerSignin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSignin.swift; sourceTree = "<group>"; };
@@ -54,6 +61,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DE2CB6F41E50BF950082C6BE /* utl */ = {
+			isa = PBXGroup;
+			children = (
+				DE2CB6F51E50BFEC0082C6BE /* ConstraintsViewController.swift */,
+			);
+			name = utl;
+			sourceTree = "<group>";
+		};
+		DE2CB6FA1E549C340082C6BE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DE2CB6F21E4F7E460082C6BE /* FancyTextField.swift */,
+				DE2CB6FB1E549C5D0082C6BE /* cumstomView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		DEFA9BA41E4CA9B1004088B0 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +99,9 @@
 		DEFA9BAF1E4CA9B1004088B0 /* t0039494 */ = {
 			isa = PBXGroup;
 			children = (
+				DE2CB6FA1E549C340082C6BE /* view */,
+				DE2CB6F91E5217C70082C6BE /* t0039494.entitlements */,
+				DE2CB6F41E50BF950082C6BE /* utl */,
 				DEFA9BC71E4CB2E0004088B0 /* controller */,
 				DEFA9BB01E4CA9B1004088B0 /* AppDelegate.swift */,
 				DEFA9BB41E4CA9B1004088B0 /* Main.storyboard */,
@@ -91,7 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				DEFA9BB21E4CA9B1004088B0 /* ViewControllerSignin.swift */,
-				DE2CB6F21E4F7E460082C6BE /* FancyTextField.swift */,
+				DE2CB6F71E5214DB0082C6BE /* FeedVC.swift */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -142,6 +169,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 69FW7B54P3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -230,10 +262,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2CB6F81E5214DB0082C6BE /* FeedVC.swift in Sources */,
 				DEFA9BB91E4CA9B1004088B0 /* t0039494.xcdatamodeld in Sources */,
 				DE2CB6F31E4F7E460082C6BE /* FancyTextField.swift in Sources */,
 				DEFA9BB31E4CA9B1004088B0 /* ViewControllerSignin.swift in Sources */,
 				DEFA9BB11E4CA9B1004088B0 /* AppDelegate.swift in Sources */,
+				DE2CB6F61E50BFEC0082C6BE /* ConstraintsViewController.swift in Sources */,
+				DE2CB6FC1E549C5D0082C6BE /* cumstomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +392,7 @@
 			baseConfigurationReference = 03E8CB51D87AEE8749E12C66 /* Pods-t0039494.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = t0039494/t0039494.entitlements;
 				DEVELOPMENT_TEAM = 69FW7B54P3;
 				INFOPLIST_FILE = t0039494/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -371,6 +407,7 @@
 			baseConfigurationReference = CF9F32E0998EE8113EC54584 /* Pods-t0039494.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = t0039494/t0039494.entitlements;
 				DEVELOPMENT_TEAM = 69FW7B54P3;
 				INFOPLIST_FILE = t0039494/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

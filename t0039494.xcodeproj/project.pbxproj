@@ -13,6 +13,8 @@
 		DE2CB6F61E50BFEC0082C6BE /* ConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6F51E50BFEC0082C6BE /* ConstraintsViewController.swift */; };
 		DE2CB6F81E5214DB0082C6BE /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6F71E5214DB0082C6BE /* FeedVC.swift */; };
 		DE2CB6FC1E549C5D0082C6BE /* cumstomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6FB1E549C5D0082C6BE /* cumstomView.swift */; };
+		DE2CB6FE1E54C0540082C6BE /* PCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6FD1E54C0540082C6BE /* PCell.swift */; };
+		DE2CB7001E55D82F0082C6BE /* Circluar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2CB6FF1E55D82E0082C6BE /* Circluar.swift */; };
 		DEFA9BB11E4CA9B1004088B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFA9BB01E4CA9B1004088B0 /* AppDelegate.swift */; };
 		DEFA9BB31E4CA9B1004088B0 /* ViewControllerSignin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFA9BB21E4CA9B1004088B0 /* ViewControllerSignin.swift */; };
 		DEFA9BB61E4CA9B1004088B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFA9BB41E4CA9B1004088B0 /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 		DE2CB6F71E5214DB0082C6BE /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		DE2CB6F91E5217C70082C6BE /* t0039494.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = t0039494.entitlements; sourceTree = "<group>"; };
 		DE2CB6FB1E549C5D0082C6BE /* cumstomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cumstomView.swift; sourceTree = "<group>"; };
+		DE2CB6FD1E54C0540082C6BE /* PCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PCell.swift; sourceTree = "<group>"; };
+		DE2CB6FF1E55D82E0082C6BE /* Circluar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circluar.swift; sourceTree = "<group>"; };
 		DEFA9BAD1E4CA9B1004088B0 /* t0039494.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = t0039494.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFA9BB01E4CA9B1004088B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEFA9BB21E4CA9B1004088B0 /* ViewControllerSignin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSignin.swift; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			children = (
 				DE2CB6F21E4F7E460082C6BE /* FancyTextField.swift */,
 				DE2CB6FB1E549C5D0082C6BE /* cumstomView.swift */,
+				DE2CB6FD1E54C0540082C6BE /* PCell.swift */,
+				DE2CB6FF1E55D82E0082C6BE /* Circluar.swift */,
 			);
 			name = view;
 			sourceTree = "<group>";
@@ -267,7 +273,9 @@
 				DE2CB6F31E4F7E460082C6BE /* FancyTextField.swift in Sources */,
 				DEFA9BB31E4CA9B1004088B0 /* ViewControllerSignin.swift in Sources */,
 				DEFA9BB11E4CA9B1004088B0 /* AppDelegate.swift in Sources */,
+				DE2CB7001E55D82F0082C6BE /* Circluar.swift in Sources */,
 				DE2CB6F61E50BFEC0082C6BE /* ConstraintsViewController.swift in Sources */,
+				DE2CB6FE1E54C0540082C6BE /* PCell.swift in Sources */,
 				DE2CB6FC1E549C5D0082C6BE /* cumstomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

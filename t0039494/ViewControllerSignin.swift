@@ -35,7 +35,8 @@ class ViewControllerSignin: UIViewController {
             } else {
                 print("Authenticated with firebase")
                 if let user = user {
-                    self.completeSignIn(id: user.uid)
+                    let userData = ["provider": user.providerID]
+                    self.completeSignIn(id: user.uid, userData: userData)
                 }
                 
             }
@@ -48,7 +49,8 @@ class ViewControllerSignin: UIViewController {
                 if error == nil {
                     print("User Email Authenticated with FIrebase")
                     if let user = user {
-                     self.completeSignIn(id: user.uid)
+                        let userData = ["provider": user.providerID]
+                     self.completeSignIn(id: user.uid, userData: userData)
                     }
                 } else {
                     FIRAuth.auth()?.createUser(withEmail: Email, password: Password, completion: { (user, error) in
@@ -58,7 +60,8 @@ class ViewControllerSignin: UIViewController {
                         } else {
                             print("Successfully Authenticated with Firebase")
                             if let user = user {
-                                self.completeSignIn(id: user.uid)                            }
+                                let userData = ["provider": user.providerID]
+                                self.completeSignIn(id: user.uid, userData: userData)                            }
                             
                         }
                     })
@@ -67,7 +70,8 @@ class ViewControllerSignin: UIViewController {
         }
     }
     
-    func completeSignIn(id: String) {
+    func completeSignIn(id: String, userData: Dictionary<String, String>) {
+        DataService.ds.createFirebaseDBUsers(uid: id, userData: userData)
          let KeychainFinal = KeychainWrapper.standard.set(id, forKey: KEY_UID)
         print ("WILSON: Data Saved To Keychain \(KeychainFinal)")
         performSegue(withIdentifier: "GoToFeed" , sender: nil)

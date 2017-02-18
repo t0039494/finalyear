@@ -17,5 +17,53 @@
             endingLineNumber = "88">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "t0039494/FeedVC.swift"
+            timestampString = "509141391.104779"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "t0039494.FeedVC.viewDidLoad () -&gt; ()"
+                  moduleName = "t0039494"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cex/Desktop/t0039494/t0039494/FeedVC.swift"
+                  timestampString = "509141392.483132"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "651">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "t0039494.FeedVC.(viewDidLoad () -&gt; ()).(closure #1)"
+                  moduleName = "t0039494"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cex/Desktop/t0039494/t0039494/FeedVC.swift"
+                  timestampString = "509141392.488577"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

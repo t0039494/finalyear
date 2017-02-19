@@ -52,8 +52,13 @@ class FeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let post = posts[indexPath.row]
-        print("WILSON: \(post.Description)")
-        return tableView.dequeueReusableCell(withIdentifier: "PCell") as! PCell
+        
+        if let cell = tableview.dequeueReusableCell(withIdentifier: "PCell") as? PCell{
+            cell.configureCell(post: post)
+            return cell
+        }else{
+                return PCell()
+            }
         
         
     }

@@ -20,6 +20,14 @@ class PCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
+    
+    var post: Post!
+    
+    func configureCell(post: Post){
+        self.post = post
+        self.BidLbl.text = "\(post.Bids)"
+        self.Description.text  = post.Description
+    }
 
     }
 
